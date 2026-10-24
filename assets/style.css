@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+h1,h2,h3,h4,.stMarkdown p,.stMarkdown li,.stButton button,label p,.stCaption{font-family:'Poppins',sans-serif}
+#MainMenu,footer,[data-testid="stAppDeployButton"],[data-testid="stDecoration"]{display:none!important}
+header[data-testid="stHeader"]{background:transparent}
+.block-container{padding-top:2rem;max-width:1100px}
+[data-testid="stSidebar"]{background:linear-gradient(180deg,#0b3d33 0%,#1b2a5c 100%)}
+[data-testid="stSidebar"] *{color:#e8f5f1!important}
+[data-testid="stSidebarNav"]::before{content:"∫ IntegraLab";display:block;font:700 1.5rem 'Poppins',sans-serif;color:#fff;padding:1.2rem 1rem .6rem}
+.hero{background:linear-gradient(120deg,#0F6E56 0%,#1D9E75 45%,#534AB7 100%);color:#fff;padding:2.2rem 2.4rem;border-radius:22px;margin-bottom:1.6rem;box-shadow:0 12px 32px rgba(15,110,86,.28)}
+.hero h1{color:#fff;margin:0;padding:0;font-size:2.2rem;font-weight:700}
+.hero p{color:rgba(255,255,255,.92);margin:.5rem 0 0;font-size:1.05rem}
+.hero .badge{display:inline-block;background:rgba(255,255,255,.2);padding:.25rem .9rem;border-radius:999px;font-size:.8rem;margin-bottom:.8rem}
+[data-testid="stVerticalBlockBorderWrapper"]{border-radius:16px;background:#fff;transition:.2s}
+[data-testid="stVerticalBlockBorderWrapper"]:hover{box-shadow:0 10px 24px rgba(15,110,86,.15)}
+.stButton button[kind="primary"]{background:linear-gradient(120deg,#0F6E56,#534AB7);color:#fff;border:0;border-radius:12px;padding:.6rem 1.6rem;font-weight:600;transition:.2s}
+.stButton button[kind="primary"]:hover{transform:translateY(-2px);box-shadow:0 8px 18px rgba(83,74,183,.35)}
+.stTextInput input,.stSelectbox [data-baseweb="select"]>div{border-radius:12px}
+.stTabs [data-baseweb="tab-list"]{gap:8px}
+.stTabs [data-baseweb="tab"]{background:#E6F2EE;border-radius:10px;padding:.5rem 1.1rem}
+.stTabs [aria-selected="true"]{background:#0F6E56}
+.stTabs [aria-selected="true"] p{color:#fff}
+.stTabs [data-baseweb="tab-highlight"],.stTabs [data-baseweb="tab-border"]{display:none}
+[data-testid="stMetric"]{background:#fff;border:1px solid #d8e8e2;border-radius:14px;padding:1rem 1.2rem;box-shadow:0 2px 10px rgba(0,0,0,.04)}
+.katex-display{background:#fff;border:1px solid #d8e8e2;border-left:5px solid #1D9E75;border-radius:12px;padding:.9rem .5rem;margin:.6rem 0;overflow-x:auto}
